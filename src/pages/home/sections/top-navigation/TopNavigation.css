@@ -1,0 +1,69 @@
+/* Header */
+
+.navigation {
+    padding: 4.1rem 15rem;
+}
+
+.logo {
+    height: 2.8rem;
+}
+
+.navigation {
+    position: relative;
+}
+
+.navigation__links {
+    width: calc(100% - 18.2rem);
+    margin: -0.5rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.navigation__links li {
+    display: inline-block;
+}
+
+.navigation__links li:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.navigation__links li a,
+.navigation a {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 3rem;
+}
+
+.navigation .navigation__action {
+    vertical-align: top;
+    text-align: right;
+}
+#mobile-nav-icon {
+    display: none;
+}
+
+.close-icon {
+    font-size: 6rem;
+    color: #5c0822;
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+}
+
+.mobile-nav {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+
+    display: none;
+}
+
+.show-menu {
+    display: inline-block;
+}
