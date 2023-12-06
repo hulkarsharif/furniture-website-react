@@ -1,14 +1,14 @@
-/* @font-face {
+@font-face {
     font-family: "MazzardL";
-    src: url("./fonts/MazzardL-Regular.otf") format("truetype");
+    src: url("./images/fonts/MazzardL-Regular.otf") format("truetype");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "MazzardL";
-    src: url("./fonts/MazzardL-SemiBold.otf") format("truetype");
+    src: url("./images/fonts/MazzardL-SemiBold.otf") format("truetype");
     font-weight: 600;
-} */
+}
 
 /*REM*/
 * {
