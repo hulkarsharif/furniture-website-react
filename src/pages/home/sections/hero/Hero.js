@@ -22,10 +22,10 @@ export function Hero() {
                             QUALITY DESIGN FOR ALL
                         </span>
                         <h1 className="heading-1">
-                            Bring back the classNameic look by using Whiter.
-                            Easy home delivery!
+                            Bring back the classic look by using Whiter. Easy
+                            home delivery!
                         </h1>
-                        <p className="text-md">
+                        <p className="text-lg">
                             Rediscover the timeless allure of the past as Whiter
                             effortlessly revives the beloved vintage aesthetic.
                         </p>
