@@ -2,6 +2,12 @@ import "./Footer.css";
 import logo from "../../../../images/logo.svg.svg";
 import { contactLinks, roomLinks, companyLinks } from "./data";
 
+// const Link=(props)=>{
+//     return(
+
+//     )
+// }
+
 export function Footer() {
     return (
         <footer id="footer">
