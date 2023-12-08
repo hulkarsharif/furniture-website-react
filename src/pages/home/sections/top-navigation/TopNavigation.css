@@ -67,3 +67,24 @@
 .show-menu {
     display: inline-block;
 }
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+    .navigation {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+    .navigation__links,
+    .navigation__action {
+        display: none;
+    }
+}

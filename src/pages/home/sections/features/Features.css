@@ -59,3 +59,46 @@
 .heading-2 {
     margin-bottom: 1rem;
 }
+
+/*---------------*/
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .features-section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .features-section {
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+    .feature {
+        display: block;
+        width: 100%;
+    }
+
+    .features-section .feature {
+        margin-right: 0rem;
+        text-align: center;
+    }
+
+    .features-section .feature:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    .feature-icon,
+    .feature-text {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feature-icon {
+        margin-bottom: 3rem;
+        /* margin-right: 0;  */
+    }
+}
