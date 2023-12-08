@@ -83,3 +83,27 @@
     height: 4.6rem;
     width: 4.6rem;
 }
+
+/*-------------*/
+@media (max-width: 600px) {
+    .testimonials-section__left {
+        padding-left: 2.8rem;
+    }
+    .testimonials-section__left {
+        display: block;
+        width: 100%;
+        padding: 30rem 5rem;
+    }
+    .testimonials-section__right {
+        display: block;
+        width: 100%;
+    }
+    .testimonials-img {
+        display: block;
+        width: 100%;
+    }
+    .play-btn {
+        top: 50%;
+        left: 50%;
+    }
+}

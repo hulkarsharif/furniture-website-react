@@ -95,3 +95,48 @@
     right: 2.4rem;
     bottom: 2.4rem;
 }
+
+/*-----------------*/
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .designs-section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    .arrows {
+        right: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .designs-section {
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+    .arrows {
+        right: 8rem;
+    }
+
+    .design-card {
+        display: block;
+        width: 100%;
+        margin-bottom: 3rem;
+        margin-right: 0;
+    }
+
+    .designs-section .heading-3 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .designs-section .design-card:not(:last-child) {
+        margin-right: 0;
+    }
+}

@@ -59,3 +59,51 @@
 .orange-line {
     width: 3rem;
 }
+
+/*---------------------*/
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .process-section {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .process-section {
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+    }
+    .number,
+    .process-heading,
+    .process-text,
+    .process-link {
+        display: block;
+        width: 100%;
+    }
+    .process-section .uppercase-text-1 {
+        margin-bottom: 0;
+    }
+
+    .process-text,
+    .process-link {
+        margin-bottom: 3.5rem;
+    }
+    .number,
+    .process-heading {
+        margin-bottom: 1.6rem;
+    }
+
+    #process-section .process-line:not(:last-child) {
+        margin-bottom: 3.5rem;
+        border-bottom: 0.2rem solid #dfdfdf7c;
+    }
+
+    .process-line {
+        align-items: center;
+        display: block;
+    }
+}

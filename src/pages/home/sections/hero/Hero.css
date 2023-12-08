@@ -57,3 +57,44 @@
 .hero-section__right p {
     margin-bottom: 5.8rem;
 }
+
+/*----------------*/
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+    .hero-section {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .hero-section__content {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+}
+@media (max-width: 600px) {
+    .hero-section {
+        padding-right: 1.4rem;
+        padding-left: 1.4rem;
+    }
+
+    .hero-section__card {
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;
+    }
+    .hero-section__left {
+        display: block;
+        width: 100%;
+        margin-bottom: 3.6rem;
+    }
+
+    .hero-section__left .cicle {
+        top: 5.5rem;
+    }
+
+    .hero-section__right {
+        display: block;
+        width: 100%;
+    }
+}
