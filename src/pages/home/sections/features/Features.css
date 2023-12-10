@@ -76,6 +76,8 @@
     .features-section {
         padding-left: 2.8rem;
         padding-right: 2.8rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
     .feature {
         display: block;

@@ -75,3 +75,30 @@
     vertical-align: top;
     margin-left: 2.4rem;
 }
+/* -----*/
+@media (max-width: 1000px) {
+    .subscribe-section {
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    .subscribe-wrapper {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .subscribe-section {
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    #emailInput,
+    #subscribeInput {
+        display: block;
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -74,16 +74,16 @@ a:not(:last-child) {
     .footer {
         padding-right: 1.4rem;
         padding-left: 1.4rem;
+        padding-bottom: 2.8rem;
     }
 
     .footer__content {
         padding-right: 2.8rem;
         padding-left: 2.8rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 
-    .footer {
-        padding-bottom: 2.8rem;
-    }
     .footer__content > * {
         display: block;
         width: 100%;
