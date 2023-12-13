@@ -56,8 +56,8 @@ export class TopNavigation extends React.Component {
                     alt=""
                     id="mobile-nav-icon"
                 />
-                {this.state.showMenu ? (
-                    <nav className={`mobile-nav ${menuClass}`}>
+                {this.state.showMenu && (
+                    <nav className={`mobile-nav`}>
                         <img
                             className="mobile-nav-logo"
                             src={logo}
@@ -74,7 +74,7 @@ export class TopNavigation extends React.Component {
                             ))}
                         </ul>
                     </nav>
-                ) : null}
+                )}
             </header>
         );
     }
