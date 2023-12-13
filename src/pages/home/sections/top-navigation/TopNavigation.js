@@ -30,8 +30,6 @@ export class TopNavigation extends React.Component {
     };
 
     render() {
-        const menuClass = this.state.showMenu ? "show" : "";
-
         return (
             <header>
                 <nav className="navigation container">
